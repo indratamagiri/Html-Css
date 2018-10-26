@@ -1,0 +1,14 @@
+images
+https://www.google.co.id/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik3MrhqOndAhVMWX0KHeeoDywQjRx6BAgBEAU&url=https%3A%2F%2Funiba.ac.id%2Futama%2Fprofile-dosen-agribisnis%2Fno-profile-img-male-240x300%2F&psig=AOvVaw23R27r0IVGoTOdhyyLxxeg&ust=1538623343091145
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F4%2Ff%2F3%2F64605.jpg&imgrefurl=http%3A%2F%2Fgetwallpapers.com%2Fcollection%2Fcity-night-wallpaper-hd&docid=x4mdwElgilmYcM&tbnid=hAllqhi03s8m2M%3A&vet=10ahUKEwjBgMXIze3dAhWKpY8KHflVCSIQMwhGKBEwEQ..i&w=1920&h=1080&safe=strict&client=firefox-b-ab&bih=750&biw=1536&q=city%20image%20wallpaper&ved=0ahUKEwjBgMXIze3dAhWKpY8KHflVCSIQMwhGKBEwEQ&iact=mrc&uact=8
+https://www.flaticon.com/free-icon/group_784662#term=forum&page=1&position=4
+https://www.flaticon.com/free-icon/responsive_349385#term=computer and phone&page=1&position=3
+https://www.flaticon.com/free-icon/html5_226269#term=html5&page=1&position=5
+https://www.flaticon.com/free-icon/css_266260#term=css&page=1&position=20
+https://www.flaticon.com/free-icon/javascript_136530
+https://www.flaticon.com/free-icon/php_919830#term=php&page=1&position=2
+https://www.flaticon.com/free-icon/mysql_919836#term=mysql&page=1&position=1
+https://commons.wikimedia.org/wiki/File:React-icon.svg
+
+quesiton
+https://softwareengineering.stackexchange.com/questions/60544/why-do-game-developers-prefer-windows
