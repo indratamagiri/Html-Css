@@ -1,16 +1,15 @@
-.category{
+.category {
     padding: 1rem;
-    border-radius: 0.3rem; 
-    border: 4px solid  rgb(76, 175, 80);
+    border-radius: 0.3rem;
+    border: 4px solid rgb(76, 175, 80);
 }
 
-.cg-dark{
+.cg-dark {
     background-color: #f3f3f3;
     color: rgb(5, 5, 5);
 }
 
-.cg-light{
+.cg-light {
     background-color: #333;
     color: #f3f3f3;
 }
-
