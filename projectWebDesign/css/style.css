@@ -1,0 +1,174 @@
+.showcase {
+    content: '';
+    height: 90vh;
+    width: 100%;
+    background-image: url(../img/code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+
+.content .logo {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.content .title {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.content .text {
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.slideshow{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+.img{
+    width: 80%;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%; 
+}
+
+.keybord-img,
+.access {
+    height: 150px;
+    width: 275px;
+}
+
+.description {
+    height: 200px;
+    width: 200px;
+}
+
+.box-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+footer {
+    overflow: hidden;
+    margin: auto;
+    padding: 2.2rem;
+    height: 15%;
+}
+
+
+footer .copy {
+    margin: 0;
+    text-align: center;
+}
+
+@media(max-width: 960px){
+    .box-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width: 600px) {
+    .showcase::after {
+        height: 75vh;
+    }
+
+    .content {
+        left: 25%;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        width: 50%;
+    }
+    .img{
+        height: 200px;
+        
+    }
+
+    .content .logo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .contant .text {
+        display: none;
+    }
+
+    .box-3,
+    .box-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .services div {
+        padding: 1.3rem 1rem;
+        padding-top: 75px;
+    }
+
+    .services .des {
+        border-bottom: #333 solid 1px;
+    }
+}
+
+@media(max-height: 500px) {
+
+
+
+    .showcase::after {
+        height: 150vh;
+    }
+
+    .services div {
+        padding-top: 25px;
+    }
+
+    .contant {
+        top: 0;
+    }
+}
+
