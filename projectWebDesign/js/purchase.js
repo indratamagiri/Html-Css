@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var message="";
     let orderNumber = $('#orderNumber');
+    let listProduct = $('#list-product');
 
     let random = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let text = ""
@@ -11,6 +12,12 @@ $(document).ready(function(){
     }
 
     orderNumber.text("Order Number: "+text + number);
+    var keyboards = JSON.parse(localStorage.getItem('keyboard')) || [];
+    for (let i = 0; i < keyboards.length; i++) {
+        const keyboard = keyboards[i];
+        console.log(keyboard)
+        listProduct.append( "<li>"+ keyboard +"</li>" );
+    }
 
     $('#validate').submit(function() {
         let name = $('#name').val();
@@ -20,8 +27,10 @@ $(document).ready(function(){
         let qty = $('#qty').val();
         let sca = $('#scales');
         let regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        
-        if(name == ""){
+        if(keyboards.length < 4){
+            message = "Contains minimum 4 choices"
+        }
+        else if(name == ""){
             message = "Name cannot be empty";
         }
         else if (!name.match(/^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/)) 

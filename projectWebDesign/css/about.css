@@ -5,3 +5,13 @@ section {
 header {
     text-align: center;
 }
+
+.vidio {
+    margin: 10px 30% 20px 30%; 
+}
+
+@media screen and (max-width: 700px){
+    .vidio {
+        margin: 10px 10% 20px 10%; 
+    }
+}
